@@ -135,7 +135,7 @@ RUN apt-get -o Acquire::http::proxy="$PROXY" update && \
     apt-get -o Acquire::http::proxy="$PROXY" -y install \
       libbrotli-dev libbrotli1 \
       libcurl4 libcurl4-openssl-dev \
-      libicu66 libicu-dev \
+      libicu67 libicu-dev \
       libidn11 libidn11-dev \
       libidn2-0 libidn2-dev \
       libmcrypt4 libmcrypt-dev \
